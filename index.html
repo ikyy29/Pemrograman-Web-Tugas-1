@@ -1,0 +1,110 @@
+<!-- 
+Nama  : Muhammad Rizky Hisyam
+NIM   : F1D02410018
+Kelas : PEMROGRAMAN WEB C 2026
+-->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi - Muhammad Rizky Hisyam</title>
+</head>
+<body>
+
+    <header>
+        <h1>Profil Pribadi</h1>
+        <nav>
+            <a href="#tentang">Tentang Saya</a> |
+            <a href="#pendidikan">Pendidikan</a> |
+            <a href="#kontak">Kontak</a>
+        </nav> <hr>
+    </header>
+
+    <main>
+
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
+            <img src="Foto gw.jpeg" alt="Muhammad Rizky Hisyam" width="300">
+
+            <p>
+                Halo! Nama saya <strong>Muhammad Rizky Hisyam</strong>. 
+                Saya adalah mahasiswa di <b>Universitas Mataram</b>.
+                Ini adalah halaman profil pribadi saya yang dibuat untuk tugas 1 pemrograman web.
+            </p> <hr>
+
+            <h3>Hobi Saya</h3>
+            <ul>
+                <li>Olahraga, bermain bola & GYM</li>
+                <li>Ngoding tipis tipis</li>
+                <li>Bermain Game</li>
+            </ul>
+        </section>
+
+        <section id="pendidikan">
+            <h2>Riwayat Pendidikan</h2>
+            <table border ="1">
+                <tr>
+                    <th>Tahun</th>
+                    <th>Institusi</th>
+                    <th>Jurusan</th>
+                </tr>
+                <tr>
+                    <td>2024 - Sekarang</td>
+                    <td>Universitas Mataram</td>
+                    <td>Teknik Informatika</td>
+                </tr>
+                <tr>
+                    <td>2021 - 2024</td>
+                    <td>MA PLUS Abu Hurairah Mataram</td>
+                    <td>Bahasa</td>
+                </tr>
+                <tr>
+                    <td>2018 - 2021</td>
+                    <td>SMP IT Abu Hurairah Mataram</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>2012 - 2018</td>
+                    <td>MIN 1 Ende</td>
+                    <td>-</td>
+                </tr>
+            </table> <hr>
+        </section>
+
+        <section id="kontak">
+            <h2>Form Kontak</h2>
+
+            <form>
+                <label>Nama:</label><br>
+                <input type="text" name="nama"><br><br>
+
+                <label>Email:</label><br>
+                <input type="email" name="email"><br><br>
+
+                <label>Tanggal Lahir:</label><br>
+                <input type="date" name="tanggal"><br><br>
+
+                <label>Jenis Kelamin:</label><br>
+                <input type="radio" name="gender" value="Laki-laki"> Laki-laki
+                <input type="radio" name="gender" value="Perempuan"> Perempuan<br><br>
+
+                <label>Minat:</label><br>
+                <input type="checkbox" name="minat" value="Web"> Web Development
+                <input type="checkbox" name="minat" value="Cyber"> Cyber Security<br><br>
+
+                <label>Pesan:</label><br>
+                <textarea name="pesan"></textarea><br><br>
+
+                <input type="submit" value="Kirim">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Muhammad Rizky Hisyam.</p>
+    </footer>
+
+</body>
+</html>
